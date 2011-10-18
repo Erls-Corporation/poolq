@@ -16,3 +16,6 @@ poolq.add("set the counter to 1 one minute from now", timestamp+oneMinuteMS, fun
 poolq.add("this should bork and throw an error to keep in our error pool for later execution", timestamp+(2*oneMinuteMS), function() {
   superFakeFunctionBro();
 });
+
+// express server listen
+poolq.listen();

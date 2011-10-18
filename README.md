@@ -16,5 +16,8 @@ poolq.add("say hi", oneMinuteFromNow, function() {
   console.log("hi");
 });
 
+// default is 8081
+poolq.listen();
+
 /* EOF */
 ```
