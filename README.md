@@ -9,11 +9,11 @@ npm install poolq
 ```javascript
 var poolq = require("poolq");
 
-poolq.add({
-  title : "say hi",
-  method : function() {
-    console.log("hi");
-  }
+var timestamp = new Date().getTime();
+var oneMinuteFromNow = timestamp + (60*60);
+
+poolq.add("say hi", oneMinuteFromNow, function() {
+  console.log("hi");
 });
 
 poolq.listen(9090);
