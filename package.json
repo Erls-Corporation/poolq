@@ -2,7 +2,7 @@
   "author": "Edward Hotchkiss <e@ingk.com>",
   "name": "poolq",
   "description": "Background process queue management with web based admin tool",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": ["queue", "cron", "poolq", "job", "management"],
   "dependencies" : {
     "express":"2.4.7",
