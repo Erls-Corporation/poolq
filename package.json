@@ -1,21 +1,20 @@
-
 {
+  "author": "Edward Hotchkiss <e@ingk.com>",
   "name": "poolq",
-  	"description": "Background process queue management with web based admin tool",
-  	"version": "0.0.0",
-  	"author": "Edward Hotchkiss <e@ingk.com>",
-    "keywords": ["queue", "cron", "poolq", "job", "management"],
-  	"dependencies" : {
-      "express":"2.4.7"
-  	},
-    "licenses" : [ 
-      { 
-        "type" : "MIT",
-        "url" : "http://github.com/edwardhotchkiss/poolq/raw/master/LICENSE"
-      }
-    ],
-  	"main": "./index.js",
-  	"engines": { 
-      "node": ">= 0.4.11 < 0.5.0"
+  "description": "Background process queue management with web based admin tool",
+  "version": "0.0.0",
+  "keywords": ["queue", "cron", "poolq", "job", "management"],
+  "dependencies" : {
+    "express":"2.4.7"
+  },
+  "licenses" : [ 
+    { 
+      "type" : "MIT",
+      "url" : "http://github.com/edwardhotchkiss/poolq/raw/master/LICENSE"
     }
+  ],
+  "main": "./index.js",
+  "engines": { 
+    "node": ">= 0.4.11 < 0.5.0"
+  }
 }
