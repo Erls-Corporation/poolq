@@ -1,11 +1,12 @@
 
 {
   "name": "poolq",
-  	"description": "Background process queue management with web based admin tool over mongodb/mongoose",
-  	"version": "0.0.1",
+  	"description": "Background process queue management with web based admin tool",
+  	"version": "0.0.0",
   	"author": "Edward Hotchkiss <e@ingk.com>",
+    "keywords": ["queue", "cron", "poolq", "job", "management"],
   	"dependencies" : {
-      "blueprint":""
+      "express":"2.4.7"
   	},
     "licenses" : [ 
       { 
