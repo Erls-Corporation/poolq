@@ -2,16 +2,11 @@
 {
   "name": "poolq",
   	"description": "Background process queue management with web based admin tool over mongodb/mongoose",
-  	"version": "0.0.0",
+  	"version": "0.0.1",
   	"author": "Edward Hotchkiss <e@ingk.com>",
   	"dependencies" : {
-      "mongoose":"",
       "blueprint":""
   	},
-    "devDependencies" : {
-      "vows":"",
-      "should":""
-    },
     "licenses" : [ 
       { 
         "type" : "MIT",

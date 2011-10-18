@@ -16,7 +16,5 @@ poolq.add("say hi", oneMinuteFromNow, function() {
   console.log("hi");
 });
 
-poolq.listen(9090);
-
 /* EOF */
 ```
