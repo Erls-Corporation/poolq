@@ -1,5 +1,5 @@
 
-var poolq = require("../");
+var poolq = require("../lib/poolq");
 
 var counter = 0;
 
