@@ -2,7 +2,7 @@
   "author":"Edward Hotchkiss <e@ingk.com>",
   "name":"poolq",
   "description":"NodeJS Background Process Management w/ Queue",
-  "version":"0.0.5",
+  "version":"0.0.6",
   "keywords":["queue", "cron", "poolq", "job", "management"],
   "dependencies":{
     "express":"2.5.1"
@@ -12,7 +12,7 @@
       "url" : "http://github.com/edwardhotchkiss/poolq/raw/master/LICENSE"
     }
   ],
-  "main": "./poolq.js",
+  "main": "./lib/poolq.js",
   "engines": { 
     "node": ">= 0.6.5 < 0.8.0"
   }
